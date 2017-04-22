@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         for(Profile profile : Utils.loadProfiles(this.getApplicationContext())){
-            mSwipeView.addView(new TinderCard(mContext, profile, mSwipeView));
+            mSwipeView.addView(new Card(mContext, profile, mSwipeView));
         }
 
         findViewById(R.id.rejectBtn).setOnClickListener(new View.OnClickListener() {

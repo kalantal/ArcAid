@@ -22,7 +22,7 @@ import com.mindorks.placeholderview.annotations.swipe.SwipeOutState;
  * Created by janisharali on 19/08/16.
  */
 @Layout(R.layout.tinder_card_view)
-public class TinderCard {
+public class Card {
 
     @View(R.id.profileImageView)
     private ImageView profileImageView;
@@ -37,7 +37,7 @@ public class TinderCard {
     private Context mContext;
     private SwipePlaceHolderView mSwipeView;
 
-    public TinderCard(Context context, Profile profile, SwipePlaceHolderView swipeView) {
+    public Card(Context context, Profile profile, SwipePlaceHolderView swipeView) {
         mContext = context;
         mProfile = profile;
         mSwipeView = swipeView;
