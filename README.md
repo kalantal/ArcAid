@@ -8,7 +8,7 @@ https://arcaid.cc <br />
 
 Web: Tomcat web server <br />
 Core: Hosted in EC2 with storage on S3 <br />
-AWS: Keys <br />
+AWS: Keys [Removed] <br />
 App: Android core <br />
 Docs: Burndown & Planning <br />
 Tools: Dev tools <br />
